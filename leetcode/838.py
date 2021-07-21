@@ -24,8 +24,7 @@ class Solution(object):
                 pre_char = d[i]
                 pre_loc = i
         
-        d = d[1:-1]
-        return ''.join(d)
+        return ''.join(d[1:-1])
                     
     def update(self, d, left, right, c):
         for i in range(left, right):
